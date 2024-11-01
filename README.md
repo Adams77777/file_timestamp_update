@@ -24,7 +24,9 @@ If stuck files are updated endlessly, an system error could be unnoticed.
 Remarks: 
 
 Run the script with sufficent permissions to update the files
+
 Each file is updated only once. Already updated file names are read from the logfile. Creating new logfiles could result repeated file update.
+
 The script reads the modified timestamp (mtime) and modifies all 3 timestamps: access timestamp (atime), modified timestamp (mtime), change timestamp (ctime)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
